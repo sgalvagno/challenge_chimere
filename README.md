@@ -1,10 +1,10 @@
 # challenge_chimere
 
-A recruitment test I made the goal was to determine from a log file the number of paquet send between 2 IPv4 and port, and sort them.
+A recruitment test I took, the goal was to determine from a log file how many packets were sent between two IPv4 addreses and ports, and to sort them.
 
-The program is based on a radix tree that store the IP adress in a double link list.
+The program is based on a radix tree that stores the IP addresses in a double link list.
 
-I prefered to use radic tree as a hash table. I have a O(24n) and minimize memory allocation.
+I prefered to use radic tree instead of a hash table. The complexity is O(24n) and minimizes memory allocation.
 
-The leafs of the radix tree are lnk to a double link list.
+The leaves of the radix tree are link to a double link list.
 
